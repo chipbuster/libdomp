@@ -6,6 +6,8 @@
 #ifndef OMP_H
 #define OMP_H 1
 
+#include<sys/time.h>
+
 typedef int omp_lock_t;
 typedef int omp_nest_lock_t;
 
